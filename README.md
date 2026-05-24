@@ -128,7 +128,7 @@ Full definitions are in [docs/dax_measures.md](docs/dax_measures.md).
 ## How to explore this project
 
 1. **Fastest:** open the [live dashboard link](https://app.powerbi.com/view?r=eyJrIjoiOWYxMDYxNmQtMTEzYy00MjY5LTgzOGMtMDlhMTkyOWM4NDAxIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9) above (no install needed).
-2. **For the full story:** open the [presentation deck](presentation/NYC_Airbnb_Market_Trends_and_Insights.pptx).
+2. **For the full story:** open the [presentation deck](https://1drv.ms/p/c/8646e285e30fbcef/IQBqpCyVp1w3RbsLOvOPIDEiAQL3vnuQ9-YYg1_TG-43tH8?e=OhYrxt).
 3. **To inspect the model and DAX yourself:** download `powerbi/Airbnb_data_modelled.pbix` and open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
 
 ---

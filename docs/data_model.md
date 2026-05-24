@@ -32,8 +32,4 @@ A single denormalized table is easy to build but hard to analyze cleanly. It rep
 | fact_listings[cancellation_policy] | dim_cancellation_policy[cancellation_policy] | Many-to-one | Single |
 | fact_listings[last review] | dim_date[Date] | Many-to-one | Single |
 
-All five relationships are single-direction. Bidirectional (both-way) filtering was deliberately avoided. While it is occasionally convenient, it introduces ambiguity in the filter context that can produce silently incorrect aggregations.
-
-## Design trade-off: star, not snowflake
-
-The dim_neighbourhood table contains both borough and neighbourhood, which denormalizes what could be a parent-child hierarchy across two separate dimensions. This was an intentional choice for simpler relationships and faster queries. The trade-off is that any future change to borough-level attributes would require a model adjustment.
+All five relationships are single-direction. Bidirectional (both-way) filtering was deliberately avoided. While it is occasionally convenient, it introduces ambiguity in the filter context that can produce silently incorrect aggregations.  

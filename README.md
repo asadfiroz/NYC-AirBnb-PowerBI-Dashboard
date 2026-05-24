@@ -2,8 +2,8 @@
 
 An end-to-end data analytics project that turns a raw 102,000-row Airbnb data into a clean star-schema data model and a single-page interactive Power BI dashboard. The project covers the full analytics lifecycle: data cleaning, dimensional modeling, data validation, DAX measure authoring, and visual storytelling.
 
-> **Live dashboard:** [View live Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWYxMDYxNmQtMTEzYy00MjY5LTgzOGMtMDlhMTkyOWM4NDAxIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9)
-![Dashboard]()
+> **Live dashboard: [View live Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWYxMDYxNmQtMTEzYy00MjY5LTgzOGMtMDlhMTkyOWM4NDAxIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9)
+![Dashboard](assets/dashboard_preview.png)**
 > 
 ---
 

@@ -1,10 +1,8 @@
 # NYC Airbnb Market Trends and Insights
 
-An end-to-end data analytics project that turns a raw 102,000-row Airbnb export into a clean star-schema data model and a single-page interactive Power BI dashboard. The project covers the full analytics lifecycle: data cleaning, dimensional modeling, data validation, DAX measure authoring, and visual storytelling.
+An end-to-end data analytics project that turns a raw 102,000-row Airbnb data into a clean star-schema data model and a single-page interactive Power BI dashboard. The project covers the full analytics lifecycle: data cleaning, dimensional modeling, data validation, DAX measure authoring, and visual storytelling.
 
-> **Live dashboard:** [View the interactive Power BI dashboard](REPLACE_WITH_YOUR_PUBLISH_TO_WEB_LINK)
->
-> **Presentation:** [View the findings deck](presentation/NYC_Airbnb_Market_Trends_and_Insights.pptx)
+> **Live dashboard:** [View the interactive Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWYxMDYxNmQtMTEzYy00MjY5LTgzOGMtMDlhMTkyOWM4NDAxIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9)
 
 ---
 
@@ -42,19 +40,19 @@ The data covers geography (borough, neighbourhood, coordinates), pricing (nightl
 Raw Excel export
       |
       v
-1. Data cleaning and validation   (remove duplicates, fix typos, handle nulls, type-cast)
+1. Data cleaning and validation 
       |
       v
-2. Star schema design             (split flat table into 1 fact + 5 dimensions)
+2. Star schema design             
       |
       v
-3. DAX measure authoring          (9 reusable measures in a _Measures table)
+3. DAX measure authoring          
       |
       v
-4. Dashboard construction         (single-page report, 4 analytical themes)
+4. Dashboard construction        
       |
       v
-5. Insight communication          (presentation deck + this README)
+5. Insight communication          
 ```
 
 ---
@@ -126,30 +124,12 @@ Full definitions are in [docs/dax_measures.md](docs/dax_measures.md).
 
 ---
 
-## Repository structure
-
-```
-nyc-airbnb-analytics/
-├── README.md                      Project landing page (this file)
-├── powerbi/
-│   └── Airbnb_data_modelled.pbix  The Power BI file (open in Power BI Desktop)
-├── presentation/
-│   └── NYC_Airbnb_Market_Trends_and_Insights.pptx   Findings deck
-├── assets/
-│   ├── star_schema.png            Data model diagram
-│   └── *.jpg                      Dashboard and slide screenshots
-└── docs/
-    ├── data_model.md              Schema and relationship details
-    ├── data_dictionary.md         Column-by-column reference
-    ├── data_cleaning.md           Cleaning and validation log
-    └── dax_measures.md            DAX measure definitions
-```
 
 ---
 
 ## How to explore this project
 
-1. **Fastest:** open the [live dashboard link](REPLACE_WITH_YOUR_PUBLISH_TO_WEB_LINK) above (no install needed).
+1. **Fastest:** open the [live dashboard link](https://app.powerbi.com/view?r=eyJrIjoiOWYxMDYxNmQtMTEzYy00MjY5LTgzOGMtMDlhMTkyOWM4NDAxIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9) above (no install needed).
 2. **For the full story:** open the [presentation deck](presentation/NYC_Airbnb_Market_Trends_and_Insights.pptx).
 3. **To inspect the model and DAX yourself:** download `powerbi/Airbnb_data_modelled.pbix` and open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
 
@@ -161,4 +141,4 @@ Microsoft Power BI Desktop, Power Query (M language), and DAX. Dimensional model
 
 ## Note on the data
 
-This project uses a publicly available academic dataset of NYC Airbnb listings. It contains no confidential, client, or proprietary information and is intended purely as a portfolio demonstration of data analysis and modeling skills.
+This project uses a publicly available dataset of NYC Airbnb listings. It contains no confidential, client, or proprietary information and is intended purely as a portfolio demonstration of data analysis and modeling skills.

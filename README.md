@@ -100,8 +100,6 @@ Review activity follows a clear three-act story: a build-up from 2015 to 2018, a
 
 Outer boroughs show higher average availability (Staten Island around 180 days per year) while Manhattan and Brooklyn sit lowest (around 120 days). Read as a demand proxy, lower availability implies heavier booking, which matches the expectation for centrally located, high-demand rentals.
 
-![Host verification and availability insights](assets/host_availability_insights.jpg)
-
 ---
 
 ## DAX measures
